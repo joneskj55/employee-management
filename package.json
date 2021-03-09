@@ -1,0 +1,23 @@
+{
+  "name": "ems",
+  "author": "Kevin Jones",
+  "private": true,
+  "version": "0.0.1",
+  "scripts": {
+    "start": "node app"
+  },
+  "engines": {
+    "node": "12.18.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "csurf": "^1.11.0",
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "helmet": "^4.4.1",
+    "mongoose": "^5.11.15",
+    "morgan": "^1.10.0"
+  }
+}
