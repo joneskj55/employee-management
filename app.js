@@ -25,7 +25,8 @@ const favicon = require("express-favicon");
 const csrfProtection = csrf({ cookie: true });
 
 // Connect to MongoDB
-var mongoDB = "mongodb://localhost:27017/test";
+var mongoDB =
+  "mongodb+srv://new-user-week6:test@buwebdev-cluster-1.a6jtu.mongodb.net/ems";
 mongoose.connect(mongoDB, {
   //useMongoClient: true,
   useNewUrlParser: true,
