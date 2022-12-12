@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "employee-management,
+  "name": "employee-management",
   "builds": [
     { "src": "app.js", "use": "@vercel/node" }
   ],
